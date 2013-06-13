@@ -1,0 +1,50 @@
+﻿Build started 6/12/2013 12:18:33 PM.
+     1>Project "C:\Dropbox\GSP_281_Shared_Folder\GSP_281_Project_4_Montgomery_Meadows_Hoffman\line.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\line.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo"Debug\line.res" line.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\line.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\line.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\line.lib" /MACHINE:X86 /SAFESEH Debug\line.res
+         Debug\AIManager.obj
+         Debug\Cleaning.obj
+         Debug\Ordering.obj
+         Debug\Paying.obj
+         Debug\Serving.obj
+         Debug\Waiting.obj
+         Debug\Circle.obj
+         Debug\CollisionManager.obj
+         Debug\CountDownType.obj
+         Debug\Firework.obj
+         Debug\Food.obj
+         Debug\GameLogic.obj
+         Debug\GlobalData.obj
+         Debug\Line.obj
+         Debug\main.obj
+         Debug\Matrix3.obj
+         Debug\MessageStruct.obj
+         Debug\MessagingSystem.obj
+         Debug\MouseInput.obj
+         Debug\ObjectManager.obj
+         Debug\Planner.obj
+         Debug\Spawner.obj
+         Debug\Sprite.obj
+         Debug\Square.obj
+         Debug\Tables.obj
+         Debug\Timer.obj
+         Debug\Vector2.obj
+         Debug\Vector3.obj
+         Debug\Working.obj
+         LINK : Debug\line.exe not found or not built by the last incremental link; performing full link
+     1>AIManager.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         line.vcxproj -> C:\Dropbox\GSP_281_Shared_Folder\GSP_281_Project_4_Montgomery_Meadows_Hoffman\Debug\line.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\line.unsuccessfulbuild".
+         Touching "Debug\line.lastbuildstate".
+     1>Done Building Project "C:\Dropbox\GSP_281_Shared_Folder\GSP_281_Project_4_Montgomery_Meadows_Hoffman\line.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.72

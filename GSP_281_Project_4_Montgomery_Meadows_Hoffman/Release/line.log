@@ -1,0 +1,43 @@
+﻿Build started 6/4/2013 3:11:42 PM.
+     1>Project "C:\Users\Evan\Desktop\GSP_281_Project_3\line.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\line.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\line.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\line.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Evan\Desktop\GSP_281_Project_3\Release\line.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\line.lib" /MACHINE:X86 Release\line.res
+         Release\AIManager.obj
+         Release\Broken.obj
+         Release\Circle.obj
+         Release\CollisionManager.obj
+         Release\CountDownType.obj
+         Release\Firework.obj
+         Release\GameLogic.obj
+         Release\GlobalData.obj
+         Release\Line.obj
+         Release\main.obj
+         Release\Matrix3.obj
+         Release\MessageStruct.obj
+         Release\MessagingSystem.obj
+         Release\MouseInput.obj
+         Release\ObjectManager.obj
+         Release\Spawner.obj
+         Release\Sprite.obj
+         Release\Square.obj
+         Release\Timer.obj
+         Release\Vector2.obj
+         Release\Vector3.obj
+         Release\Working.obj
+         line.vcxproj -> C:\Users\Evan\Desktop\GSP_281_Project_3\Release\line.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\line.exe;#1" /manifest Release\line.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\line.unsuccessfulbuild".
+         Touching "Release\line.lastbuildstate".
+     1>Done Building Project "C:\Users\Evan\Desktop\GSP_281_Project_3\line.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.87

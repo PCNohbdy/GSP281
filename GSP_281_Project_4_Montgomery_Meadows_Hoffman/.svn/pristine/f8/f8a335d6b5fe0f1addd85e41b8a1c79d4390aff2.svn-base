@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{5fc7042b-9eed-4f01-ac48-8d9bf561f7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{7b3012b0-a424-4109-9d0b-2e28229e5922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{d5575e9b-46f7-4b30-9411-bdab0e26c34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{5c8f5a17-6247-4a76-af89-2c8ec7e25dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\StateMachine">
+      <UniqueIdentifier>{7ea77037-6aba-4324-a7dc-25523d8b3a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\AIObjects">
+      <UniqueIdentifier>{2d6c381a-3cf7-4e3b-8489-33aa84f8ed25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{43671e4d-0ea9-45b0-82eb-fe07cd1e6dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{241b18ac-31c6-465b-be09-c3b89715ec92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\AIObjects">
+      <UniqueIdentifier>{d337572d-4c03-4a80-8a9e-f8d7874a78ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\StateMachine">
+      <UniqueIdentifier>{d470f81e-b1d1-4e98-b9d6-b6716311f996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{d5c228f3-7b90-42cd-ad69-d33b74da4b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{4decf2fb-608a-427e-b695-ca818be9d7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\MessagingSystem">
+      <UniqueIdentifier>{8ed4bb4c-c449-4771-946a-502ab73adef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{66429826-8a18-4627-8091-e611be69fc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{bbb2b15f-a6c2-4b20-93b9-9139b9d4a6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\RestrauntObjects">
+      <UniqueIdentifier>{67ded058-8bd2-4065-9d17-a133bbe38e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\RestrauntObjects">
+      <UniqueIdentifier>{be2f21a4-76a2-41da-9d34-848689c35ad6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CountDownType.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Firework.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageStruct.cpp">
+      <Filter>Source Files\AI\MessagingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MessagingSystem.cpp">
+      <Filter>Source Files\AI\MessagingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalData.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Working.cpp">
+      <Filter>Source Files\AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInput.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>Source Files\Objects\RestrauntObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Tables.cpp">
+      <Filter>Source Files\Objects\RestrauntObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Waiting.cpp">
+      <Filter>Source Files\AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Planner.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Cleaning.cpp">
+      <Filter>Source Files\AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Ordering.cpp">
+      <Filter>Source Files\AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Paying.cpp">
+      <Filter>Source Files\AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Serving.cpp">
+      <Filter>Source Files\AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Drinks.cpp">
+      <Filter>Source Files\Objects\RestrauntObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsFramework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAIEntity.h">
+      <Filter>Header Files\AI\AIObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEntity.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalData.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Working.h">
+      <Filter>Header Files\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Cooks.h">
+      <Filter>Header Files\AI\AIObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Waiters.h">
+      <Filter>Header Files\AI\AIObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInput.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Firework.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Payment.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Tables.h">
+      <Filter>Header Files\Objects\RestrauntObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>Header Files\Objects\RestrauntObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TableWraps.h">
+      <Filter>Header Files\Objects\RestrauntObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GuestGroup.h">
+      <Filter>Header Files\Objects\RestrauntObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Hosts.h">
+      <Filter>Header Files\AI\AIObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Waiting.h">
+      <Filter>Header Files\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Cleaning.h">
+      <Filter>Header Files\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Paying.h">
+      <Filter>Header Files\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Serving.h">
+      <Filter>Header Files\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Ordering.h">
+      <Filter>Header Files\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Planner.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="BusBoy.h">
+      <Filter>Header Files\AI\AIObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Drinks.h">
+      <Filter>Header Files\Objects\RestrauntObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="line.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
